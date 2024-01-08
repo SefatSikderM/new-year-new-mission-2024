@@ -20,7 +20,7 @@ header{
     font-family: Merriweather;
     text-align: center;
     font-size: 32px;
-    line: height 45px;
+    line-height:  45px;
     font-weight: 400;
     padding-top: 177px;
     padding-right: 531px;
@@ -37,7 +37,7 @@ header{
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
+    
     font-weight: 900;
     line-height: 95px;
     padding-top: 0px;
@@ -45,4 +45,53 @@ header{
     padding-bottom: 177px;
     padding-left: 344px;
     margin-top: 0%;
+}
+.discount{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-right: 469px;
+    margin-left: 468px;
+    margin-bottom: 0%;
+    line-height: 107px;
+}
+
+.deals{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+line-height: 29px;
+font-style: normal;
+font-weight: 500;
+margin-top: 48px;
+margin-right: 461px;
+margin-left: 462px;
+margin-bottom: 0%;
+}
+
+.catagory{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 16px;
+    margin-left: 455px;
+    margin-right: 455px;
+}
+.photo{
+
+    text-align: center;
+    fill: lightgray 50% / cover no-repeat;
+    width: 802.9px;
+    height: 500px;
+    margin-top: 48px;
+    margin-right: 398.1px;
+    margin-left: 450px;
+    display: block;
 }
