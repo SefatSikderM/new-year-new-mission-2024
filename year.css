@@ -98,8 +98,8 @@ header{
     background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position:center;
-    width: 1320px;
-    height: 600px;
+    max-width: 1320px;
+    max-height: 600px;
     flex-shrink: 0;
     margin-top: 120px;
     margin-left: 140px;
@@ -109,6 +109,7 @@ header{
     justify-content: space-around;
     
     
+    
 
     
 }
@@ -116,13 +117,15 @@ header{
 .welcome{
     color: #FFF;
     font-family: Merriweather;
+    width: 642px;
+
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
-    padding-top: 80px;
-    padding-right: 94px;
-    padding-left: 480px;
+    padding-top: 90px;
+    padding-right: 20px;
+    padding-left: 700px;
     padding-bottom: 0px;
     margin-bottom: 2%;
 }
@@ -135,37 +138,149 @@ header{
     line-height: 30px;
     margin-top: 0%;
     padding: 0px;
-    padding-right: 497px;
-    padding-left: 126px;
+    padding-right: 0%;
+    padding-left: 480px;
     padding-bottom: 0px;
 }
 .btn1{
-        color: #FFF;
-        background: none;
-        text-align: center;
-        font-family: Inter;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: uppercase;
-        margin-top: 48px;
-        margin-right: 1000px;
-        margin-left: 150px;
-        margin-bottom: 0;
-        padding-bottom: 0%;
-        
-        
-        
+    color: #FFF;
+    background: none;
+    margin-top: 0%;
+    margin-left: 50%;
+    margin-bottom: 20%;
+    
+       
     }
     
 .profile-pic{
-    width: 319.83px;
-    height: 464.662px;
-    padding-top: 68px;
-    margin-right: 490px;
     
+    max-width: 319.83px;
+    max-height: 464.662px;
+    padding-top: 68px;
+    margin-right: 600px;
+    margin-left: 290px;
 
 
 }
-   
+.bg-color{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100% );
+    margin-left: 150px;
+
+    background-repeat: no-repeat;
+    
+    border-radius: 12px;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.writing{
+    text-align: center;
+    padding-bottom: 0px;
+    
+}
+.writing1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.btn2{
+    color: #FFF;
+    background:#F00;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    padding:16px 32px 16px 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 576px;
+    margin-top: 48px;
+
+}
+.best-offer{
+    color: #F00;
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 120px;
+    padding-top: 104px;
+    padding-right: 256px;
+    padding-bottom: 16px;
+    
+    }
+.coming{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-left: 120px;
+    padding-right: 135px;
+    padding-bottom: 22px; 
+    
+}
+.paragraph{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    padding-top: 0px;
+    padding-right: 70px;
+    padding-bottom: 0px;
+    padding-left: 120px;
+}
+.pics{
+    width: 364.844px;
+height: 364.844px;
+border-radius: 50%;
+border: 10px solid red;
+padding: 25px;
+margin-top: 100px;
+margin-left: -10%;
+    
+}
+.pics2{
+
+
+}
+.offer2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.twozero{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 112px;
+    margin-right: 290px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+.prag{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-right: 140px;
+    margin-bottom: 43px;
+    margin-left: 0px;
+}
