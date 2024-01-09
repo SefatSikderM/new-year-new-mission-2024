@@ -202,7 +202,7 @@ header{
     padding:16px 32px 16px 32px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: 576px;
+    margin-left: 590px;
     margin-top: 48px;
 
 }
@@ -252,6 +252,9 @@ margin-left: -10%;
     
 }
 .pics2{
+    width: 140px;
+height: 140px;
+margin-left: -10%;
 
 
 }
@@ -265,13 +268,11 @@ margin-left: -10%;
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-top: 112px;
     margin-right: 290px;
     margin-bottom: 16px;
-    margin-left: 0px;
+    margin-left: -10%;
 }
 .prag{
     color: rgba(7, 2, 17, 0.60);
@@ -282,5 +283,123 @@ margin-left: -10%;
     line-height: 32px; /* 160% */
     margin-right: 140px;
     margin-bottom: 43px;
-    margin-left: 0px;
+    margin-left: -10%;
+}
+
+.function{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    
+}
+.holiday{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+.dolor{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    margin-top: 28px;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.celeb{
+    margin-bottom: -10%;
+    margin-left: 20%;
+    object-fit: cover;
+    padding-bottom: -10%;
+    
+}
+.rectangle{
+    margin-top: 2%;
+    margin-left: 20%;
+    object-fit: cover;
+    
+}
+.disc{
+    margin-bottom: 0%;
+    margin-top: -30%;
+    margin-left: -90%;
+}
+.girl{
+    width: 429px;
+    height: 433px;
+    margin-top: 13%;
+    margin-left: -60%;
+    margin-bottom 0; 
+    }
+
+    .best1{
+        color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 140px;
+    margin-bottom: 16px;
+    }
+    .awesome{
+        color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 140px;
+    margin-bottom: 16px;
+    }
+    .sit{
+        color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 896px;
+    margin-left: 140px;
+}
+.flexi{
+    width: 424px;
+height: 450px;
+border-radius: 16px;
+display: flex;
+    justify-content:space-between;
+    word-spacing: 16px;
+    margin-left: 140px;
+    gap: 16px;
+    row-gap: 16px;
+}
+.last{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+height: 616px;
+
+}
+.iit{
+    text-align: center;
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
 }
