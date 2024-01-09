@@ -12,9 +12,9 @@ header{
     margin-left: 140px;
     margin-bottom:auto;
     margin-right: 140px;
-
-    
+ 
 }
+
 .banner-greeting{
     color: #FFF;
     font-family: Merriweather;
@@ -27,8 +27,7 @@ header{
     padding-left: 530px;
     padding: bottom 0;
     margin-bottom: 1%;
-    
-    
+
 }
 
 
@@ -106,20 +105,24 @@ header{
     margin-left: 140px;
     margin-right: 140px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    
     
 
+    
 }
+
 .welcome{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
-    padding-top: 126px;
-    padding-right: 552px;
-    padding-left: 126px;
+    padding-top: 80px;
+    padding-right: 94px;
+    padding-left: 480px;
     padding-bottom: 0px;
     margin-bottom: 2%;
 }
@@ -149,19 +152,20 @@ header{
         margin-top: 48px;
         margin-right: 1000px;
         margin-left: 150px;
+        margin-bottom: 0;
+        padding-bottom: 0%;
+        
         
         
     }
     
-    .style{
+.profile-pic{
+    width: 319.83px;
+    height: 464.662px;
+    padding-top: 68px;
+    margin-right: 490px;
     
-    
-    flex-direction:row;
-    justify-content: 
-    align-items: center;
 
-    }
-    .first1{
-        display: flex;
-    }
+
+}
    
